@@ -55,18 +55,12 @@ export default function Layout({ title, description, children }) {
         <AppBar position="static" sx={classes.appbar}>
           <Toolbar sx={classes.toolbar}>
             <NextLink href="/" passHref>
-              
-                <Typography sx={classes.brand}>amazona</Typography>
-              
+             
             </NextLink>
           </Toolbar>
         </AppBar>
-        <Container component="main" sx={classes.main}>
-          {children}
-        </Container>
-        <Box component="footer" sx={classes.footer}>
-          <Typography>All rights reserved. Sanity Amazona.</Typography>
-        </Box>
+       
+     
       </ThemeProvider>
     </>
   );
