@@ -56,7 +56,7 @@ export default function Layout({ title, description, children }) {
           <Toolbar sx={classes.toolbar}>
             <NextLink href="/" passHref>
               
-                <Typography sx={classes.brand}>amazona</Typography>
+                <Typography sx={classes.brand}>Abro eCommerce Stores</Typography>
               
             </NextLink>
           </Toolbar>
