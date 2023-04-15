@@ -30,10 +30,8 @@ export default function ProductItem({ product }) {
         </CardActionArea>
       </NextLink>
       <CardActions>
-        <Typography>${product.price}</Typography>
-        <Button size="small" color="primary">
-          Add to cart
-        </Button>
+        <Typography> Salary- ${product.price}</Typography>
+        
       </CardActions>
     </Card>
   );

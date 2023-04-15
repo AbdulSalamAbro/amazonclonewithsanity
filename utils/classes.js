@@ -28,6 +28,31 @@ const classes = {
     fontWeight: 'bold',
     fontSize: '1.5rem',
   },
+
+
+    // search
+
+    searchForm: {
+      border: '1px solid #ffffff',
+      backgroundColor: '#ffffff',
+      borderRadius: 1,
+    },
+    searchInput: {
+      paddingLeft: 1,
+      color: '#000000',
+      '& ::placeholder': {
+        color: '#606060',
+      },
+    },
+    searchButton: {
+      backgroundColor: '#f8c040',
+      padding: 1,
+      borderRadius: '0 5px 5px 0',
+      '& span': {
+        color: '#000000',
+      },
+    },
 };
 
 export default classes;
+
