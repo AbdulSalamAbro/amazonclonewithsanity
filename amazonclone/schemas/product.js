@@ -1,6 +1,6 @@
 export default {
     name: 'product',
-    title: 'Product',
+    title: 'Post jobs',
     type: 'document',
     fields: [
       {
